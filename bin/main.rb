@@ -16,6 +16,8 @@ puts "#{player_one} what is your number?"
 
 score = gets.chomp.to_i
 
+puts "#{player_one} your score is #{score}"
+
 puts ' | |0'
 puts ' | | '
 puts ' | | '
@@ -23,6 +25,8 @@ puts ' | | '
 puts "#{player_two} what is your number?"
 
 score = gets.chomp.to_i
+
+puts "#{player_two} your score is #{score}"
 
 puts ' | |0'
 puts ' |X| '
@@ -32,6 +36,8 @@ puts "#{player_one} what is your number?"
 
 score = gets.chomp.to_i
 
+puts "#{player_one} your score is #{score}"
+
 puts ' | |0'
 puts ' |X|0'
 puts ' | | '
@@ -40,6 +46,8 @@ puts "#{player_two} what is your number?"
 
 score = gets.chomp.to_i
 
+puts "#{player_two} your score is #{score}"
+
 puts ' | |0'
 puts ' |X|0'
 puts ' |X| '
@@ -47,6 +55,8 @@ puts ' |X| '
 puts "#{player_one} what is your number?"
 
 score = gets.chomp.to_i
+
+puts "#{player_one} your score is #{score}"
 
 puts ' | |0'
 puts ' |X|0'
